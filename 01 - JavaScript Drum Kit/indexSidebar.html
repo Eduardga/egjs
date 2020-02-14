@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+ 
+
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading"><b>30 Day Vanilla JS </b></div>
+      <div class="list-group list-group-flush">
+        <a href="01 - JavaScript Drum Kit/index-FINISHED.html" target="blank"
+          class="list-group-item list-group-item-action bg-light">JS DrumKit</a>
+        <a href="/02 - JS and CSS Clock/index-FINISHED.html" target="blank"
+          class="list-group-item list-group-item-action bg-light">JS and CSS Clock</a>
+        <a href="03 - CSS Variables/index-FINISHED.html" target="blank"
+          class="list-group-item list-group-item-action bg-light">CSS Var</a>
+        <a href="04 - Array Cardio Day 1/index-FINISHED.html" target="blank"
+          class="list-group-item list-group-item-action bg-light">Array Cardio 1</a>
+        <a href="05 - Flex Panel Gallery/index-FINISHED.html" target="blank"
+          class="list-group-item list-group-item-action bg-light">Flex Gallery</a>
+        <a href="06 - Type Ahead/index-START.html" target="blank"
+          class="list-group-item list-group-item-action bg-light">Type Ahead</a>
+        <a href="07 - Array Cardio Day 2/index-START.html" target="blank"
+          class="list-group-item list-group-item-action bg-light">Array Cardio 2</a>
+        <a href="08 - Fun with HTML5 Canvas/index-START.html"
+          class="list-group-item list-group-item-action bg-light">Fun Canvas</a>
+        <a href="09 - Dev Tools Domination/index-START.html" class="list-group-item list-group-item-action bg-light">Dev
+          Tools</a>
+        <a href="10 - Hold Shift and Check Checkboxes/index-START.html"
+          class="list-group-item list-group-item-action bg-light">Shift and Check</a>
+        <a href="11 - Custom Video Player/index.html" class="list-group-item list-group-item-action bg-light">Video
+          Player</a>
+        <a href="12 - Key Sequence Detection/index-START.html"
+          class="list-group-item list-group-item-action bg-light">Key Detection</a>
+        <a href="13 - Slide in on Scroll/index-START.html" class="list-group-item list-group-item-action bg-light">Slide
+          Scroll</a>
+        <a href="14 - JavaScript References VS Copying/index-START.html"
+          class="list-group-item list-group-item-action bg-light">JS References</a>
+        <a href="15 - LocalStorage/index-START.html" class="list-group-item list-group-item-action bg-light">Local
+          Storage</a>
+        <a href="16 - Mouse Move Shadow/index-START.html" class="list-group-item list-group-item-action bg-light">Mouse
+          Shadow</a>
+        <a href="17 - Sort Without Articles/index-START.html"
+          class="list-group-item list-group-item-action bg-light">Sort</a>
+        <a href="18 - Adding Up Times with Reduce/index-START.html"
+          class="list-group-item list-group-item-action bg-light">Adding wit Reduce</a>
+        <a href="19 - Webcam Fun/index.html" class="list-group-item list-group-item-action bg-light">Cam bun</a>
+        <a href="20 - Speech Detection/index-START.html" class="list-group-item list-group-item-action bg-light">Speech
+          Detection</a>
+        <a href="21 - Geolocation/index-START.html"
+          class="list-group-item list-group-item-action bg-light">GeoLocation</a>
+        <a href="22 - Follow Along Link Highlighter/index-START.html"
+          class="list-group-item list-group-item-action bg-light">Link Highlighter</a>
+        <a href="23 - Speech Synthesis/index-START.html" class="list-group-item list-group-item-action bg-light">Speech
+          Synthesis</a>
+        <a href="24 - Sticky Nav/index-START.html" class="list-group-item list-group-item-action bg-light">Sticky
+          Nav</a>
+        <a href="25 - Event Capture, Propagation, Bubbling and Once/index-START.html"
+          class="list-group-item list-group-item-action bg-light">Events</a>
+        <a href="26 - Stripe Follow Along Nav/index-START.html"
+          class="list-group-item list-group-item-action bg-light">Stripe Nav</a>
+        <a href="27 - Click and Drag/index-START.html" class="list-group-item list-group-item-action bg-light">Click and
+          Drag</a>
+        <a href="28 - Video Speed Controller/index-START.html"
+          class="list-group-item list-group-item-action bg-light">Video Controller</a>
+        <a href="29 - Countdown Timer/index.html" class="list-group-item list-group-item-action bg-light">Countdown</a>
+        <a href="30 - Whack A Mole/index-START.html" class="list-group-item list-group-item-action bg-light">Whack A
+          Mole !</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">JavaScript 30</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                PlayGround : Explore
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <div class="keys">
+          <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">clap</span>
+          </div>
+          <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">hihat</span>
+          </div>
+          <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">kick</span>
+          </div>
+          <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">openhat</span>
+          </div>
+          <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">boom</span>
+          </div>
+          <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">ride</span>
+          </div>
+          <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">snare</span>
+          </div>
+          <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">tom</span>
+          </div>
+          <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">tink</span>
+          </div>
+        </div>
+      </div>
+
+      <audio data-key="65" src="sounds/clap.wav"></audio>
+      <audio data-key="83" src="sounds/hihat.wav"></audio>
+      <audio data-key="68" src="sounds/kick.wav"></audio>
+      <audio data-key="70" src="sounds/openhat.wav"></audio>
+      <audio data-key="71" src="sounds/boom.wav"></audio>
+      <audio data-key="72" src="sounds/ride.wav"></audio>
+      <audio data-key="74" src="sounds/snare.wav"></audio>
+      <audio data-key="75" src="sounds/tom.wav"></audio>
+      <audio data-key="76" src="sounds/tink.wav"></audio>
+
+      <script>
+      
+          function removeTransition(e) {
+              if (e.propertyName !== 'transform') return;
+              e.target.classList.remove('playing');
+            }
+
+            function playSound(e) {
+              const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+              const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+              if (!audio) return;
+
+              key.classList.add('playing');
+              audio.currentTime = 0;
+              audio.play();
+            }
+
+            const keys = Array.from(document.querySelectorAll('.key'));
+            keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+            window.addEventListener('keydown', playSound);
+      
+            
+            $("#menu-toggle").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+
+      </script>
+
+
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function (e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>

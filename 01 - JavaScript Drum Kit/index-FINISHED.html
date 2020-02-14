@@ -2,12 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JS Drum Kit</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+
+      a.button {
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+        
+        text-decoration: none;
+        color: initial;
+        font-family:monospace;
+        
+      }
+
+      .wraper {
+        padding-top: 15px;
+        text-align: center;
+      }
+
+
+  </style>
 </head>
+
 <body>
 
+  <div class="container">
 
+  <div class="wraper">
+  <button class="button"><a href="../index.html" class="button">HOME 🤘</a></button>
+  </div>
+
+  
   <div class="keys">
     <div data-key="65" class="key">
       <kbd>A</kbd>
@@ -21,6 +52,9 @@
       <kbd>D</kbd>
       <span class="sound">kick</span>
     </div>
+
+  </div>
+  <div class="keys">
     <div data-key="70" class="key">
       <kbd>F</kbd>
       <span class="sound">openhat</span>
@@ -33,6 +67,8 @@
       <kbd>H</kbd>
       <span class="sound">ride</span>
     </div>
+  </div>
+  <div class="keys">
     <div data-key="74" class="key">
       <kbd>J</kbd>
       <span class="sound">snare</span>
@@ -45,6 +81,10 @@
       <kbd>L</kbd>
       <span class="sound">tink</span>
     </div>
+  </div>
+
+  </div>
+
   </div>
 
   <audio data-key="65" src="sounds/clap.wav"></audio>
