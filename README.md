@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # [JavScript 30 Days]
 [Amazing Course from Wes Bos](https://JavaScript30.com).
 
@@ -8,6 +8,8 @@
 (Then you can follow his videos or try to solve by yourself, if you feel stacked there are the finish solution too)
 
 **[View Live Preview]**
+
+https://eduardga.github.io/egjs/index.html
 
 ## Status
 
@@ -51,5 +53,4 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 # egjs.github.io
 
-My first repository on Github
->>>>>>> 952b3a2fb15710be0c66cebe5949b2996b804ef6
+

@@ -22,6 +22,11 @@
   text-shadow: 0 0 .5rem black;
 }
 
+.key:hover{
+  cursor: pointer;
+  background: red;
+}
+
 .playing {
   transform: scale(1.1);
   border-color: #ffc600;
